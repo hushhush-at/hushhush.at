@@ -2,15 +2,31 @@
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Hush Hush</title>
-	</head>
-	<body>
-		<h1>Hush Hush</h1>
-	</body>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Hush Hush</title>
+  </head>
+  <body class='antialiased bg-rose-100'>
+    <h1>Hush Hush</h1>
+    <main class='flex min-h-screen flex-col items-center justify-center p-24'>
+      <div
+        class='group relative flex flex-col items-center justify-center rounded-full bg-rose-200 p-48 text-[20vw] font-bold transition-all shadow-lg hover:shadow-rose-300'
+      >
+        <span
+          class='absolute leading-none text-rose-600/25 group-hover:translate-x-5 translate-x-1 translate-y-1 group-hover:translate-y-9 transition-all duration-300 ease-in-out'
+        >
+          Hush
+        </span>
+        <span
+          class='absolute leading-none text-rose-500 group-hover:-translate-y-9 group-hover:-translate-x-5 transition-all duration-300 ease-in-out'
+        >
+          Hush
+        </span>
+      </div>
+    </main>
+  </body>
 </html>
